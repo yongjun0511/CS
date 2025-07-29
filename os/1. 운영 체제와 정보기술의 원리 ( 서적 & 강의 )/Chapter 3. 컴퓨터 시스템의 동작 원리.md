@@ -65,7 +65,7 @@ ex) 파일을 저장하라.
 - IO로 뭐 들어온 정보들을 메모리에 복사해주고 CPU로 인터럽트 한번만 걸어준다 ( 작업을 마쳤습니다 ).
 - device의 buffer storage의 내용을 block단위로 옮김.
 
-![스크린샷 2025-04-15 오후 8.47.03.png](attachment:b0820c9e-d147-4c02-99e8-421eef219240:스크린샷_2025-04-15_오후_8.47.03.png)
+<img width="548" height="402" alt="스크린샷 2025-07-29 오후 10 37 29" src="https://github.com/user-attachments/assets/43ed0b71-e0bd-440a-b9f4-6a908ee420e1" />
 
 ---
 
@@ -165,6 +165,7 @@ Jump Instruction도 있음.
 
 ### IO를 어떻게 하는가?
 
+
 방법 1.  일반적인 방식 (Special Instruction)
 
 일반적으로 CPU 기계어(Instruction)에는 메모리 접근 Instruction과 IO Device에  접근하는 Instruction이 있다.
@@ -176,3 +177,15 @@ IO를 하는 Special Instruction
 IO device에 메모리 주소를 맥여서 메모리 접근을 통해서 디바이스를
 
 IO주소도 메모리에 주소에 연장되는 주소를 붙여서.. IO device에 대해서 접근하는 Instruction 넣음.
+
+### 저장 장치 계층 구조
+<img width="527" height="444" alt="스크린샷 2025-07-29 오후 10 37 44" src="https://github.com/user-attachments/assets/4cca5804-cd93-49d9-a1da-c4cdc5eae19c" />
+
+- 위로 갈수록 속도가 빠르지만, 단위 공간당 비용이 비싸니 용량이 적다.
+그래서 빠른 저장 장치 느린 저장 장치 라고도함..
+- Secondary는 비휘발성 Primary는 휘발성 → 전원이 나가면 사라짐 Volatility
+- 위로 갈수록 속도가 빠르지만, 단위 공간당 비용이 비싸니 용량이 적다
+- Secondary는 비휘발성 Primary는 휘발성 → 전원이 나가면 사라짐 Volatility
+
+- Primary는 CPU가 직접 접근 가능 Secondary는 접근 못함
+CPU가 접근 가능하려면 바이트 단위 접근이 가능해야함.
