@@ -7,5 +7,3 @@
 http://www.kocw.net/home/cview.do?cid=3646706b4347ef09
 
 # 🗓️ Study Timeline (2025.07.28 ~ ing)
-
-- 2025.07.28 2장 완독 및 내용 범위 강의 수강 완료
