@@ -7,8 +7,7 @@
 
 IO bound job은 빈도가 많은 대신 CPU적게 쓰고 CPU bound job은 진득하게 CPU오래 사용 .
 
-
-
+<img width="711" height="502" alt="Image" src="https://github.com/user-attachments/assets/11692795-1ee4-447e-be55-1e2086244708" />
 
 
 이때 IO bound job처럼 interactive한 job에 우선적으로 CPU를 할당할 필요가 있음.
