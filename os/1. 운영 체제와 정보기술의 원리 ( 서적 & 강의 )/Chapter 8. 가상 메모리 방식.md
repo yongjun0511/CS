@@ -1,4 +1,4 @@
-<img width="410" height="610" alt="스크린샷 2025-08-23 오전 1 21 31" src="https://github.com/user-attachments/assets/7e2bff3f-8b1f-40fc-9a08-22a7f045bffb" /><img width="425" height="319" alt="스크린샷 2025-08-23 오전 1 09 27" src="https://github.com/user-attachments/assets/fafa40be-46e1-419f-857f-0287761c731d" />
+<img width="425" height="319" alt="스크린샷 2025-08-23 오전 1 09 27" src="https://github.com/user-attachments/assets/fafa40be-46e1-419f-857f-0287761c731d" />
 
 이 기법은 전적으로 운영체제가 관여를 합니다.
 
