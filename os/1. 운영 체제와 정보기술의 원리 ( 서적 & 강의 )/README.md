@@ -6,4 +6,4 @@
 2014년 ver : 
 http://www.kocw.net/home/cview.do?cid=3646706b4347ef09
 
-# 🗓️ Study Timeline (2025.07.28 ~ ing)
+# 🗓️ Study Timeline (2025.07.28 ~ 2025.08.24)
